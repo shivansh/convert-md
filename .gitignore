@@ -1,3 +1,3 @@
 # Ignore the test files
-./test.md
-./bsd-md
+test.md
+bsd-md
