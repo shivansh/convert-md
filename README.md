@@ -11,7 +11,7 @@ This inspiration for this project came as a need for writing weekly updates for 
 * GNU awk
 
 ## Usage
-* `git clone git@github.com:shivrai/convert-md.git && bash script.bash`.<br>
+* `git clone git@github.com:shivrai/convert-md.git && bash ./convert-md/script.bash`.<br>
 **Note:** Do not execute arbitrary scripts without being sure as in what they contain. This however is just a simple script making use of `sed` and `awk`.
 * Your converted document in MoinWiki syntax is placed inside your clipboard. Enjoy !!
 

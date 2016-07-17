@@ -22,5 +22,4 @@ awk '/```/&&v++%2{sub(/```/, "}}}")}{print}' $1 > bsd-md
 sed -i -e "s/\`\`\`/{{{/g" bsd-md
 
 # Finally copy the output into clipboard
-#xclip -sel clip < bsd-md
-cat bsd-md
+xclip -sel clip < bsd-md
